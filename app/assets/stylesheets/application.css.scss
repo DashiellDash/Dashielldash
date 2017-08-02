@@ -37,8 +37,14 @@ h1, h2, h3 {
 .navbar {
   border: none;
 }
+.navbar-brand {
+  font-family: 'Pacifico', cursive;;
+  font-weight: 300;
+}
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
+  font-family: 'Pacifico', cursive;
   color: white;
   &:hover {
     color: white;
